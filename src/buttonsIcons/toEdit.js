@@ -83,7 +83,7 @@ const ToEditRecipe = ({ recipeId, recipe }) => {
     console.log("the data is:", data)
     console.log("recipeId:", recipeId, "dataId:", data.Id)
     axios
-      .post(`http://localhost:8080/api/recipe/edit`, data)
+      .post(`https://server-recipe-project.onrender.com/api/recipe/edit`, data)
       .then((response) => {
         console.log(response.data)
        

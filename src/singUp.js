@@ -78,7 +78,7 @@ const SignUp = () => {
   
   const send = (data) => {
     axios
-      .post("http://localhost:8080/api/user/sighin", data)
+      .post("https://server-recipe-project.onrender.com/api/user/sighin", data)
       .then((response) => {
         Swal.fire({
           icon: "success",

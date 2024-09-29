@@ -49,7 +49,7 @@ const AddCategory = () => {
 
     const send =(data)=>{
         axios
-        .post('http://localhost:8080/api/category',data)
+        .post('https://server-recipe-project.onrender.com/api/category',data)
         .then((x)=>
         Swal.fire({
             icon: "success",

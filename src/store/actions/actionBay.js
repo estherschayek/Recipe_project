@@ -8,7 +8,7 @@ export const AllBayByUser = (userId) => {
   return (dispatch) => { 
     
     axios
-      .get(`http://localhost:8080/api/bay/${userId}`)
+      .get(`https://server-recipe-project.onrender.com/bay/${userId}`)
       .then((x) => { 
         dispatch({ type: actionType.SET_BAY_BY_USER, bayUser: x.data})
         
@@ -24,7 +24,7 @@ export const deleteBayByUser = (item,itemName) => {
 return (dispatch) => { 
   console.log("theDataSendToDEleteFromBay",item)
   axios
-    .post(`http://localhost:8080/api/bay/delete/${item}`)
+    .post(`https://server-recipe-project.onrender.com/bay/delete/${item}`)
 
     .then((x) => { 
       console.log("result",x)
@@ -48,7 +48,7 @@ export const editBayByUser = (data) => {
   return (dispatch) => { 
     console.log("theDataSendToAddOrEditTheBay",data)
     axios
-    .post(`http://localhost:8080/api/bay`,data)
+    .post(`https://server-recipe-project.onrender.com/bay`,data)
       .then((x) => { 
         console.log("result",x)
         dispatch({ type: actionType.EDIT_BAY, bayUser:data})

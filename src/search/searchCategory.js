@@ -16,7 +16,7 @@ const SearchCategory = ({selectedCategory}) => {
  
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/category")
+      .get("https://server-recipe-project.onrender.com/api/category")
       .then((x) => {
         setCategory(x.data);
       })
