@@ -7,7 +7,7 @@ export const allCategories = () => {
 
   return (dispatch) => { 
     axios
-      .get('https://server-recipe-project.onrender.com/category')
+      .get('https://server-recipe-project.onrender.com/api/category')
       .then((x) => { 
         dispatch({ type: actionType.SET_ALL_CATEGORIES, category: x.data})
     })

@@ -8,7 +8,7 @@ export const allRecipies = () => {
 
   return (dispatch) => { 
     axios
-      .get("https://server-recipe-project.onrender.com/recipe")
+      .get("https://server-recipe-project.onrender.com/api/recipe")
       .then((x) => { 
         dispatch({ type: actionType.SET_ALL_RECIPE, recipe: x.data})
     })
@@ -21,7 +21,7 @@ export const allRecipies = () => {
 export const removeRecipe=(recipeId,recipeName)=>{
   return(dispatch)=>{
     axios
-    .post(`https://server-recipe-project.onrender.com/recipe/delete/:Id`,{recipeId})
+    .post(`https://server-recipe-project.onrender.com/api/recipe/delete/:Id`,{recipeId})
     .then((x)=>{
       console.log("x",x)
       dispatch({type:actionType.DELETE_RECIPE,recipe:recipeId})
@@ -44,7 +44,7 @@ export const addRecipe=(data, userName)=>{
   return(dispatch)=>{
     
     axios
-    .post("https://server-recipe-project.onrender.com/recipe", data)
+    .post("https://server-recipe-project.onrender.com/api/recipe", data)
     .then((x)=>{
       console.log("x",x.data)
       dispatch({type:actionType.ADD_RECIPE, recipe:data})

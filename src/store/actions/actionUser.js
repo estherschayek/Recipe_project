@@ -7,7 +7,7 @@ export const login = (Username, Password) => {
 
   return (dispatch) => {
     axios
-      .post("https://server-recipe-project.onrender.com/user/login", { Username, Password })
+      .post("https://server-recipe-project.onrender.com/api/user/login", { Username, Password })
       .then((x) => {
         console.log(Username, Password, x);
         dispatch({ type: actionType.SET_USER, user: x.data});
