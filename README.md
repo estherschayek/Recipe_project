@@ -1,69 +1,67 @@
-# Getting Started with Create React App
+# Getting Started with Recipies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello and welcome to Tasting, your go-to place for all things delicious! At Tasting, we're all about making your cooking experience fun and easy.
 
-## Available Scripts
+## Explore Culinary Delights
 
-In the project directory, you can run:
+Discover a wide range of recipes that cater to every taste and skill level. From hearty meals to sweet treats, Tasting is your one-stop-shop for cooking inspiration.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Recipe Categorie
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+** Browse by Category: **
 
-### `npm test`
+Explore recipes conveniently organized by categories such as appetizers, main courses, desserts, and more.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Recipe Management Made Easy
 
-### `npm run build`
+** Add, Read, Edit, Delete: **
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Feel like a chef by contributing your recipes to our collection. Edit them anytime to match your evolving cooking style. Your kitchen, your rules – let your creativity shine!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Shop cart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+** Make a shop list: **
 
-### `npm run eject`
+Enjoy making your shop list throught your culinary search.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Simple and Beautiful Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tasting isn't just practical; it's pretty too! Enjoy a clean and user-friendly design that makes your cooking journey even more enjoyable.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
+To get started with Recipies on your local machine, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository to your computer:
+git clone https://github.com/estherschayek/Recipe_project.git
 
-## Learn More
+ Install dependencies in the server and client folders:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ bash
+cd server npm install cd ../client npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run the server and client:
 
-### Code Splitting
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# In the server folder
+npm run dev
 
-### Analyzing the Bundle Size
+# In the client folder
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Ensure you have Node.js installed.
+Now you're ready to embark on your culinary adventures with Recipies! Join Us on Recipies
 
-### Making a Progressive Web App
+Whether you're a cooking pro or just getting started, Tasting is here to make your kitchen adventures exciting and flavorful. Join us, and let's make every meal a tasty one!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Check out Tasting at Your Tasting Website
 
-### Advanced Configuration
+Good luck with your culinary creations on Tasting!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Built by
+Esther Schayek 2022
 
 ### `npm run build` fails to minify
 
