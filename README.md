@@ -10,19 +10,19 @@ Discover a wide range of recipes that cater to every taste and skill level. From
 
 ### Recipe Categorie
 
-** Browse by Category: **
+**Browse by Category:**
 
 Explore recipes conveniently organized by categories such as appetizers, main courses, desserts, and more.
 
 ### Recipe Management Made Easy
 
-** Add, Read, Edit, Delete: **
+**Add, Read, Edit, Delete:**
 
 Feel like a chef by contributing your recipes to our collection. Edit them anytime to match your evolving cooking style. Your kitchen, your rules – let your creativity shine!
 
 ### Shop cart
 
-** Make a shop list: **
+**Make a shop list:**
 
 Enjoy making your shop list throught your culinary search.
 
@@ -45,10 +45,10 @@ Run the server and client:
 
 bash
 
-# In the server folder
+In the server folder
 npm run dev
 
-# In the client folder
+In the client folder
 npm start
 
 Ensure you have Node.js installed.
