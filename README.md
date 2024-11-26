@@ -28,27 +28,32 @@ Enjoy making your shop list throught your culinary search.
 
 ## Simple and Beautiful Design
 
-Tasting isn't just practical; it's pretty too! Enjoy a clean and user-friendly design that makes your cooking journey even more enjoyable.
+Tasting isn't just practical; it's pretty too! Enjoy a clean and user-friendly design, using MUI libraries,  that makes your cooking journey even more enjoyable.
 
 ## Getting Started
 To get started with Recipies on your local machine, follow these steps:
 
-Clone the repository to your computer:
+1. Clone the client repository to your computer:
+   
 git clone https://github.com/estherschayek/Recipe_project.git
 
- Install dependencies in the server and client folders:
+2. Clone the server repository to your computer:
+   
+git clone https://github.com/estherschayek/server_recipe_project.git
 
+3. Install dependencies in the server and client folders:
+   
  bash
-cd server npm install cd ../client npm install
+ npm install
 
-Run the server and client:
+4. Run the server and client:
+   
+ bash
 
-bash
+- **In the server folder**
+npm run node index.js
 
-In the server folder
-npm run dev
-
-In the client folder
+- **In the client folder**
 npm start
 
 Ensure you have Node.js installed.
@@ -62,7 +67,3 @@ Good luck with your culinary creations on Tasting!
 
 ## Built by
 Esther Schayek 2022
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
