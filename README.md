@@ -1,6 +1,6 @@
 # Getting Started with Recipies
 
-Hello and welcome to Tasting, your go-to place for all things delicious! At Tasting, we're all about making your cooking experience fun and easy.
+Hello and welcome to Recipies, your go-to place for all things delicious! At Recipies, we're all about making your cooking experience fun and easy.
 
 ## Explore Culinary Delights
 
